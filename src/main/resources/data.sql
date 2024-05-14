@@ -63,25 +63,25 @@ VALUES
 -- Massa de dados para a tabela PRODUTO
 INSERT INTO PRODUTO (id, ativo, codigo, descricao, nome, preco, id_marca)
 VALUES
-    (4, 1, 'P004', 'Descrição do Produto 4', 'Produto 4', 30.25, 4),
-    (5, 0, 'P005', 'Descrição do Produto 5', 'Produto 5', 25.99, 5),
-    (6, 1, 'P006', 'Descrição do Produto 6', 'Produto 6', 12.50, 6),
-    (7, 0, 'P007', 'Descrição do Produto 7', 'Produto 7', 17.75, 7),
-    (8, 1, 'P008', 'Descrição do Produto 8', 'Produto 8', 40.00, 8),
-    (9, 0, 'P009', 'Descrição do Produto 9', 'Produto 9', 8.99, 9),
-    (10, 1, 'P010', 'Descrição do Produto 10', 'Produto 10', 55.50, 10),
-    (11, 1, 'P011', 'Descrição do Produto 11', 'Produto 11', 22.75, 11),
-    (12, 0, 'P012', 'Descrição do Produto 12', 'Produto 12', 18.99, 12),
-    (13, 1, 'P013', 'Descrição do Produto 13', 'Produto 13', 19.99, 13),
-    (14, 0, 'P014', 'Descrição do Produto 14', 'Produto 14', 14.50, 14),
-    (15, 1, 'P015', 'Descrição do Produto 15', 'Produto 15', 32.00, 15),
-    (16, 0, 'P016', 'Descrição do Produto 16', 'Produto 16', 28.75, 16),
-    (17, 1, 'P017', 'Descrição do Produto 17', 'Produto 17', 9.99, 17),
-    (18, 0, 'P018', 'Descrição do Produto 18', 'Produto 18', 37.50, 18),
-    (19, 1, 'P019', 'Descrição do Produto 19', 'Produto 19', 45.00, 19),
-    (20, 0, 'P020', 'Descrição do Produto 20', 'Produto 20', 16.75, 20),
-    (21, 1, 'P021', 'Descrição do Produto 21', 'Produto 21', 63.99, 21),
-    (22, 1, 'P022', 'Descrição do Produto 22', 'Produto 22', 27.50,30);
+    (4, NEXTVAL('produto_seq'), 'P004', 'Descrição do Produto 4', 'Produto 4', 30.25, 4),
+    (5, NEXTVAL('produto_seq'), 'P005', 'Descrição do Produto 5', 'Produto 5', 25.99, 5),
+    (6, NEXTVAL('produto_seq'), 'P006', 'Descrição do Produto 6', 'Produto 6', 12.50, 6),
+    (7, NEXTVAL('produto_seq'), 'P007', 'Descrição do Produto 7', 'Produto 7', 17.75, 7),
+    (8, NEXTVAL('produto_seq'), 'P008', 'Descrição do Produto 8', 'Produto 8', 40.00, 8),
+    (9, NEXTVAL('produto_seq'), 'P009', 'Descrição do Produto 9', 'Produto 9', 8.99, 9),
+    (10, NEXTVAL('produto_seq'), 'P010', 'Descrição do Produto 10', 'Produto 10', 55.50, 10),
+    (11, NEXTVAL('produto_seq'), 'P011', 'Descrição do Produto 11', 'Produto 11', 22.75, 11),
+    (12, NEXTVAL('produto_seq'), 'P012', 'Descrição do Produto 12', 'Produto 12', 18.99, 12),
+    (13, NEXTVAL('produto_seq'), 'P013', 'Descrição do Produto 13', 'Produto 13', 19.99, 13),
+    (14, NEXTVAL('produto_seq'), 'P014', 'Descrição do Produto 14', 'Produto 14', 14.50, 14),
+    (15, NEXTVAL('produto_seq'), 'P015', 'Descrição do Produto 15', 'Produto 15', 32.00, 15),
+    (16, NEXTVAL('produto_seq'), 'P016', 'Descrição do Produto 16', 'Produto 16', 28.75, 16),
+    (17, NEXTVAL('produto_seq'), 'P017', 'Descrição do Produto 17', 'Produto 17', 9.99, 17),
+    (18, NEXTVAL('produto_seq'), 'P018', 'Descrição do Produto 18', 'Produto 18', 37.50, 18),
+    (19, NEXTVAL('produto_seq'), 'P019', 'Descrição do Produto 19', 'Produto 19', 45.00, 19),
+    (20, NEXTVAL('produto_seq'), 'P020', 'Descrição do Produto 20', 'Produto 20', 16.75, 20),
+    (21, NEXTVAL('produto_seq'), 'P021', 'Descrição do Produto 21', 'Produto 21', 63.99, 21),
+    (22, NEXTVAL('produto_seq'), 'P022', 'Descrição do Produto 22', 'Produto 22', 27.50,30);
 
 -- Massa de dados para a tabela PRODUTO_CATEGORIA
 INSERT INTO PRODUTO_CATEGORIA (id_produto, id_categoria)
