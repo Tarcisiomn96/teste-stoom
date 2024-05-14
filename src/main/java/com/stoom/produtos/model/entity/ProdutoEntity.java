@@ -15,7 +15,7 @@ import java.util.Set;
 public class ProdutoEntity implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     private String codigo;
