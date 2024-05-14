@@ -2,6 +2,8 @@ Olá!
 
 Segue algumas orientações para testes do projeto:
 
+Compilado no Java 17.
+
 O projeto deve ser rodado através da classe ProdutosAplication.
 
 Ao rodar, uma massa de dados para teste é inserida no banco, que também é criado de maneira automática.
@@ -41,8 +43,6 @@ Collection Postman:
     Inativar: curl --location --request PUT 'http://localhost:8080/produto/inativar/{id}'
 
     Buscar por id: curl --location 'http://localhost:8080/produto/{id}'
-
-Documentação (swagger):
 
 Obs: Regras de negócio, como validação de campos, não aplicadas.
 
