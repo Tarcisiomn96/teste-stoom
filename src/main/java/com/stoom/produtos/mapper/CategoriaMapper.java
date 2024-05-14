@@ -1,9 +1,7 @@
 package com.stoom.produtos.mapper;
 
 import com.stoom.produtos.model.dto.response.CategoriaResponseDto;
-import com.stoom.produtos.model.dto.response.ProdutoResponseDto;
 import com.stoom.produtos.model.entity.CategoriaEntity;
-import com.stoom.produtos.model.entity.ProdutoEntity;
 import org.springframework.stereotype.Component;
 
 @Component
